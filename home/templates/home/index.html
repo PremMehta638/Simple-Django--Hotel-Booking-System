@@ -1,0 +1,313 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HOME</title>
+    <!-- index css -->
+	 <link rel="stylesheet" type="text/css" href="../csss/index.css">
+     <style>
+        *{margin: 0; padding: 0; }
+
+        body{
+        background:#8184a1;
+        }
+
+        .container{
+        width: 100%;
+        height: 100%;
+        }
+        .navsection{
+            width: 100%; 
+            height: 15vh;
+            background-color: white;
+            position: absolute;
+            display: flex; justify-content: space-around;
+            align-items: center; 
+        }
+        .home{
+            margin-top: -10px;
+            margin-left: -10px;
+            width: 30%;
+            height: 30%;
+            color: #fff;
+            background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+            padding-left: 100px;
+            padding-top: 5px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .home h1{
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            animation: sid 2s linear infinite;
+            animation-direction: alternate;
+            -webkit-animation: sid 2s linear infinite;
+        }
+
+        @keyframes sid{
+            from{padding-left: 40px}
+            to{padding-right: 40px}
+        }
+        nav{
+            width:60%;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000;
+            font-weight: 900;
+            font-size: 17px;
+            position: relative;
+        }
+
+        nav a:before{
+            content: "";
+            position: absolute;
+            top: 110%;
+            left: 0;
+            width: 0;
+            height: 2px;
+            border-bottom:2px solid #4458dc;
+            transition: all 0.4s linear;
+        }
+        nav a:hover:before{
+
+            width:100%;
+        }
+        main{
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        }
+        .leftside img{
+        margin-top: 210px;
+        margin-left: -23px;
+        width: 980px;
+        height: 84vh;
+        }
+        .container main .Rightside .check-in-date p{
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: -70px;
+        margin-top: 80px;
+        }
+        .container main .Rightside .check-in-date .form-control{
+        width: 350px;
+        height: 30px;
+        margin-left: -70px;
+        margin-top: -120px;
+        font-size: 20px;
+        }
+        .container main .Rightside .check-out-date p{
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: -70px;
+        margin-top: 40px;
+        }
+
+        .container main .Rightside .check-out-date .form-control{
+        width: 350px;
+        height: 30px;
+        margin-left: -70px;
+        margin-top: 40px;
+        font-size: 20px;
+        }
+        .age{
+
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left: -75px;
+        }
+        .leftside .buttons{
+        position: absolute;
+        }
+        main .leftside .C-s-btn .btn1{
+        margin-top: -50px;
+        margin-left: 300px;
+        width: 150px;
+        height: 10px;
+        font-size: 30px;
+
+        }
+        main .leftside .C-s-btn .btn1 a{
+        width: 150px;
+        height: 10px;
+        font-size: 20px;
+
+        }
+        main .leftside .C-s-btn .btn2{
+        margin-top: -9px;
+        margin-left: 500px;
+        width: 450px;
+        font-size: 30px;
+        }
+        main .leftside .C-s-btn .btn2{
+        margin-top: -9px;
+        margin-left: 500px;
+        font-size: 30px;
+        }
+        main .leftside .C-s-btn .btn2 a{
+        font-size: 20px;
+        }
+
+        .age {
+            display: flex;
+            gap: 2em;
+            align-items: center;
+        }
+
+                
+        .quantity {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        }
+        .quantity__minus,
+        .quantity__plus {
+        display: block;
+        width: 22px;
+        height: 23px;
+        margin: 0;
+        background: #dee0ee;
+        text-decoration: none;
+        text-align: center;
+        line-height: 23px;
+        }
+        .quantity__minus:hover,
+        .quantity__plus:hover {
+        background: #575b71;
+        color: #fff;
+        } 
+        .quantity__minus {
+        border-radius: 3px 0 0 3px;
+        }
+        .quantity__plus {
+        border-radius: 0 3px 3px 0;
+        }
+        .quantity__input {
+        width: 32px;
+        height: 19px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        border-top: 2px solid #dee0ee;
+        border-bottom: 2px solid #dee0ee;
+        border-left: 1px solid #dee0ee;
+        border-right: 2px solid #dee0ee;
+        background: #fff;
+        color: #8184a1;
+        }
+        .quantity__minus:link,
+        .quantity__plus:link {
+        color: #8184a1;
+        } 
+        .quantity__minus:visited,
+        .quantity__plus:visited {
+        color: #fff;
+        }
+        .sear{
+            margin-left:210px;
+            margin-bottom:20px;
+        }
+     </style>
+            
+</head>
+<body>
+    <div class="container">
+        <section class="navsection">
+            <div class="home">
+                <h1> Mapple Restaurant</h1>
+            </div>
+                <nav>
+                    <a href="{% url 'index'%}">Home</a>
+                    <a href="{% url 'about' %}">About</a>
+                    <a href="{% url 'service' %}">Service</a>
+                    <a href="{% url 'blog' %}">Blog</a>  
+                    <a href="{% url 'logout' %}"> <button style="border-radius:5px ; background-color: white;">LOG OUT</a> </button> </a>
+                </nav>
+        </section>
+        <main>
+            <div class="leftside">
+                <img src="{% static 'home/indexpagepic.jpg' %}" alt="">
+            </div>
+
+            <div class="Rightside">
+                <div class="check-in-date">
+                    <p style="font-weight: bold;">
+                        Check in Date
+                    </p>
+                    <br>
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='date' class="form-control" />
+                        </span>
+                    </div>
+                </div>
+                <div class="sear">
+
+                    <a href="{% url 'service' %}"> <button type="button">Search</button></a>
+                </div>
+
+                <div class="check-out-date">
+                    <p class="out-Date" style="font-weight: bold;">
+                        Check Out Date
+                    </p>
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='date' class="form-control" />
+
+                        </span>
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="age">
+                    <p style="font-weight: bold;">
+                        Adult
+                    </p>
+                    <div class="quantity">
+                        <a href="#" class="quantity__minus" id="quanitiy__minus"><span>-</span></a>
+                        <input name="quantity" type="text" class="quantity__input" id="quantity__input" value="1">
+                        <a href="#" class="quantity__plus" id="quantity__plus"><span>+</span></a>
+                      </div>
+                    <br>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+    <script type="text/javascript">
+        const minus = document.getElementById('quanitiy__minus');
+        const plus = document.getElementById('quantity__plus');
+        const input = document.getElementById('quanity__input');
+
+        minus.addEventListener('click', function (e) {
+            e.preventDefault();
+            let value = document.getElementById('quantity__input').value;
+            if(value>1) {
+                value--
+            }
+            document.getElementById('quantity__input').value = value
+        })
+
+        plus.addEventListener('click', function (e) {
+            e.preventDefault();
+            let value = document.getElementById('quantity__input').value;
+            value++
+            document.getElementById('quantity__input').value = value
+        })
+
+
+
+     </script>
+	 
+</body>
+</html>

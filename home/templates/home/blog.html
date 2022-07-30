@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .cotainer{
+          position: absolute;
+        }
+        .image1{
+            margin-top: 50px;
+            margin-left: -180px;
+        }
+        .navsection{
+          text-align: center;
+          margin-top: 40px;
+        }
+        .navsection1{
+          text-align: center;
+          margin-top: -4px;
+          margin-left: -180px;
+          background-color: black;
+          height: 18vh;
+          width: 208vh;
+        }
+        .navsection2{
+          text-align: center;
+        
+          height: 5vh;
+          width: 20vh;
+        }
+        .image2 .navsection2{
+          margin-left: -190px;
+          margin-top: -350px;
+        
+        }
+        .navsection3{
+          text-align: center;
+          height: 5vh;
+          width: 20vh;
+        }
+        .image2 .navsection3{
+          margin-left: 400px;
+          margin-top: -350px;
+        
+        }
+        .navsection4{
+          text-align: center;
+          height: 5vh;
+          width: 20vh;
+        }
+        .image2 .navsection4{
+          margin-left: 980px;
+          margin-top: -350px;
+        
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <section class="navsection">
+            <h1>News and Blog</h1>
+        </section>
+        <div class="image1">
+            <img src="{% static 'home/homepageimage.jpg' %}" alt="" style="width: 208vh; height: 500px;">
+        </div>
+        <section class="navsection1">
+            <h1 style="color: white;">Main Pool Reopened <br> August 15, 2021</h1>
+        </section>
+        <div class="image2">
+            <img src="{% static 'home/homepageimage.jpg' %}" alt="" style="width: 350px; height: 380px; margin-left: -180px; margin-top: -35px;">
+            <section class="navsection2" >
+                <p style="color: white;">Luxury Room</p>
+            </section>
+            <img src="{% static 'home/img1.jpg' %}" alt="" style="width: 350px; height: 380px; margin-left: 400px; margin-top: -66px; ">
+
+            <section class="navsection3">
+                <p style="color: white;">Luxury Room</p>
+            </section>
+
+            <img src="{% static 'home/indexpagepic.jpg' %}" alt="" style="width: 350px; height: 380px; margin-top: -64px; margin-left: 970px;">
+
+            <section class="navsection4">
+                <p style="color: white;">Luxury Room</p>
+            </section>
+        </div>
+
+    </div>
+</body>
+</html>

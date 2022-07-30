@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        .container .content ul li{
+            display: inline-block;
+            
+            list-style: none;
+        }
+        
+        ul li a{
+            color: blue;
+            text-decoration: none;
+            font-size: 60px;
+            transition: all ease-in-out 250ms;
+        
+        }
+        
+        ul li a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>  
+    <div class="container">
+        <div class="content">
+            <img src="{% static 'home/img1.jpg' %}" alt="" style="margin-top: 50px; width: 90vh; height: 90vh; margin-left: -150px;">
+            <h1 style="margin-top: -620px; margin-left: 550px; ">
+                Welcome to our Luxurious Hotel
+            </h1>
+            <h4 style="margin-top: 1px; margin-left: 550px; ">
+                15yrs of Experience
+            </h4>
+            <p style="margin-top: 2px; margin-left: 550px; ">
+                The Mapple Hotel is a modern, elegant 4-star hotel overlooking the sea, perfect for a romantic, charming vacation, in the enchanting setting of Taormina and the Ionian Sea
+            </p>
+            <p style="margin-top: 300px; margin-left: 550px; font-weight: bold;">
+                Hotel@gmail.com <br>
+                <br>
+                    <p style ="margin-left: 580px; font-weight: bold;" > Mail</p>
+            </p>
+
+            <p style="margin-top: -65px; margin-left: 980px; font-weight: bold;">
+                Stay tuned
+            </p>
+            <ul>
+                <li style="margin-left: 899px;"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+               <li ><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
+               <li ><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+            
+        </div>
+    </div>
+</body>
+</html>
