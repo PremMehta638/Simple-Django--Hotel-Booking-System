@@ -1,6 +1,5 @@
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://github.com/django/django"><img src="https://www.djangoproject.com/community/logos/" alt="Build Status"></a>
 
 
