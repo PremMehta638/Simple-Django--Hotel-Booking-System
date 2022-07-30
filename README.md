@@ -2,7 +2,7 @@
 <p align="center">
 <a href="https://github.com/django/django"><img src="https://miro.medium.com/max/600/1*grQtRddJZ6pLErj2yeRYPA.png" alt="Build Status"></a>
 
-## About Django
+##Django
 
 Python-based Django is a free and open-source web application framework. Clean, practical design and quick web development are both possible with it. It was created by seasoned programmers to simplify repetitious chores so that we could concentrate on creating apps rather than inventing the wheel. Read more about django through [documentation](https://docs.djangoproject.com/en/4.0/)
 
@@ -17,7 +17,7 @@ See docs/README for instructions on building an HTML version of the docs.
 
 ___
 
-## About Django Rest Framework
+##Django Rest Framework
 
 For creating Web APIs, the Django REST framework offers a potent and adaptable toolbox. The following are some motives for using the REST framework: For your developers, the Web browsable API is a major usability win.
 Read more about django rest framework through [documentation](https://www.django-rest-framework.org/#:~:text=Django%20REST%20framework%20is%20a,packages%20for%20OAuth1a%20and%20OAuth2.)
