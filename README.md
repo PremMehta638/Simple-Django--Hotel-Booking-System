@@ -1,6 +1,6 @@
 
 <p align="center">
-<a href="https://github.com/django/django"><img src="https://www.djangoproject.com/community/logos/" alt="Build Status"></a>
+<a href="https://github.com/django/django"><img src="https://miro.medium.com/max/600/1*grQtRddJZ6pLErj2yeRYPA.png" alt="Build Status"></a>
 
 
 
