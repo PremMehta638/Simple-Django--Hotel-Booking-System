@@ -1,7 +1,7 @@
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://github.com/django/django"><img src="https://www.google.com/search?q=django+svg+image+in+white+color&sxsrf=ALiCzsaXAMAIsFpyGGM2Q09AG0akzDV2zA:1659169496710&tbm=isch&source=iu&ictx=1&vet=1&fir=VVW9xhutYJKSrM%252CkY_aIm3nzk_pBM%252C_%253B23zUL_xoywc5PM%252CkY_aIm3nzk_pBM%252C_%253BSrGjG1Vgxoh7QM%252Cvb8_mMxuFqtZ4M%252C_%253B_Y4Lne-7h2ufwM%252CK5AO2LXLGUGIwM%252C_%253BE0-ZftwB0p-FrM%252Cunfwp4lLSNyKRM%252C_%253BFep4_EzLCqMqfM%252CS16LODVjd0eDQM%252C_%253Bs-W8kibVNgwerM%252Cvb8_mMxuFqtZ4M%252C_%253BVf8sayfmruLxkM%252Cvb8_mMxuFqtZ4M%252C_%253BrMe5hMuteBWn-M%252Cs-Sm_IlLQirfeM%252C_%253B-WxramQd7HkbYM%252CsDfztO-RcPrd6M%252C_&usg=AI4_-kRlQqUiO8x90HxuvihOwb-Jq99fRw&sa=X&ved=2ahUKEwjdzuSDmKD5AhX-7zgGHTX-Dk4Q9QF6BAgNEAE#imgrc=23zUL_xoywc5PM" alt="Build Status"></a>
+<a href="https://github.com/django/django"><img src="https://www.djangoproject.com/community/logos/" alt="Build Status"></a>
 
 
 
